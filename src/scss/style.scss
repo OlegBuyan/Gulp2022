@@ -1,0 +1,20 @@
+@import 'fonts';
+
+body {
+  font-family: DynaGroteskLM;
+  // background-image: url(../img/1.jpg);
+  span {
+    color: green;
+  }
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  span {
+    color: beige;
+  }
+}
